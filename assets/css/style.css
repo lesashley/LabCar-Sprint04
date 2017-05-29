@@ -121,3 +121,34 @@ font-family: 'Raleway', sans-serif;
 .box-conductor p{
   font-family: 'Open Sans', sans-serif;
 }
+#tarifas{
+  padding: 40px 0;
+  background-color: #f7b617;
+  color: #ffffff;
+}
+.input-box{
+  margin: 25px 0;
+}
+.input-box img{
+  width: 15px;
+}
+.input-box input{
+  background: none;
+  border: 0;
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+  width: 270px;
+  padding: 5px 8px;
+  margin-left: 5px;
+}
+.input-box input::placeholder{
+  color: #ffffff;
+}
+#mapa{
+  height: 350px;
+  z-index: 10;
+}
+.border-mapa{
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
