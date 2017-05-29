@@ -38,7 +38,7 @@ font-family: 'Raleway', sans-serif;
   background-color: #f7b617;
   position: absolute;
   right: 0;
-  top: 230px;
+  top: 125px;
   color: #ffffff;
 }
 .box-hero img{
@@ -67,6 +67,7 @@ font-family: 'Raleway', sans-serif;
   background-color: #f7b617;
   padding: 40px 40px;
   color: #ffffff;
+  /*position: relative;*/
 }
 .inf-title{
   font-family: 'Raleway', sans-serif;
@@ -76,9 +77,8 @@ font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
 }
 .border{
-  border-top: 1px solid;
-  border-right: 1px solid;
-  border-bottom: 1px solid;
+  position: relative;
+  border: 1px solid #ffffff;
   border-color: #ffffff;
   padding: 30px;
   box-sizing: border-box;
@@ -102,28 +102,32 @@ font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
   padding-top: 120px;
 }
-.box-conductor h2{
-  font-family: 'Raleway', sans-serif;
-}
 .box-conductor button{
   background-color: #f7b617;
   color: #ffffff;
   border: 0;
 }
+#conductor p,
+#tarifas,
 .box-conductor button,
 .box-conductor p{
   font-family: 'Open Sans', sans-serif;
 }
 #tarifas{
-  padding: 40px 0;
+  padding: 50px 0;
   background-color: #f7b617;
   color: #ffffff;
+}
+#conductor h2,
+#tarifas h2,
+#tarifas button{
+  font-family: 'Raleway', sans-serif;
 }
 .input-box{
   margin: 25px 0;
 }
 .input-box img{
-  width: 15px;
+  width: 18px;
 }
 .input-box input{
   background: none;
@@ -133,6 +137,7 @@ font-family: 'Raleway', sans-serif;
   width: 270px;
   padding: 5px 8px;
   margin-left: 5px;
+  outline: none;
 }
 .input-box input::placeholder{
   color: #ffffff;
@@ -176,7 +181,7 @@ font-family: 'Raleway', sans-serif;
   .logo{
     width: 100px;
     position: relative;
-    left: 50px;
+    left: 65px;
   }
   #footer .flex-end{
     align-items: flex-start;
@@ -186,4 +191,12 @@ font-family: 'Raleway', sans-serif;
     width: 150px;
     margin-top: 30px;
   }
+  #tarifas{
+    padding: 100px 0;
+  }
+  .navbar{
+    /*height: 90px;*/
+    padding: 15px 0 ;
+  }
+
 }
