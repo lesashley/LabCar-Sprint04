@@ -167,9 +167,11 @@ font-family: 'Raleway', sans-serif;
 #footer .flex-end{
   display: flex;
   align-items: flex-end;
-  height: 240px;
+  height: 250px;
 }
-
+.flex-end img{
+  margin: 15px;
+}
 @media(max-width: 768px){
   .logo{
     width: 100px;
@@ -178,6 +180,10 @@ font-family: 'Raleway', sans-serif;
   }
   #footer .flex-end{
     align-items: flex-start;
-    height: 10px;
+    height: 20px;
+  }
+  .logos-footer img{
+    width: 150px;
+    margin-top: 30px;
   }
 }
