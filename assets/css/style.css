@@ -29,7 +29,7 @@ font-family: 'Raleway', sans-serif;
   background-position: 100% 93%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 120vh;
+  height: 100vh;
   position: relative;
   font-family: 'Raleway', sans-serif;
 }
@@ -92,4 +92,32 @@ font-family: 'Raleway', sans-serif;
 }
 .border img{
   width: 300px;
+}
+#conductor{
+  background-image: url(../images/conduce.jpg);
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.box-conductor{
+  position: absolute;
+  right: 0;
+  background-color: rgba(4, 4, 4, 0.37);
+  color: #ffffff;
+  height: 90vh;
+  box-sizing: border-box;
+  padding-top: 120px;
+}
+.box-conductor h2{
+  font-family: 'Raleway', sans-serif;
+}
+.box-conductor button{
+  background-color: #f7b617;
+  color: #ffffff;
+  border: 0;
+}
+.box-conductor button,
+.box-conductor p{
+  font-family: 'Open Sans', sans-serif;
 }
