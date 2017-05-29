@@ -1,0 +1,18 @@
+.navbar{
+  background-color: #ffffff;
+  border: 0;
+  width: 100%;
+}
+.navbar-default .navbar-text{
+  color: black
+}
+.navbar-toggle{
+}
+.navbar-default .navbar-toggle {
+  border: 0;
+  float: left;
+}
+.list-group-item{
+  border: 0;
+  top: -10px;
+}
