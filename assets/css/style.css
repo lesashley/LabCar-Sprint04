@@ -12,12 +12,14 @@ font-family: 'Raleway', sans-serif;
 .navbar-default .navbar-text{
   color: black
 }
-.navbar-toggle{
-}
 .navbar-default .navbar-toggle {
   border: 0;
   float: left;
 }
+/*.navbar-default.navbar-toggle:hover,
+.navbar-default.navbar-toggle:focus{
+  background-color: none;
+}*/
 .list-group-item{
   border: 0;
   top: -10px;
@@ -32,10 +34,11 @@ font-family: 'Raleway', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
 .box-hero{
+  padding: 30px;
   background-color: #f7b617;
   position: absolute;
   right: 0;
-  top: 180px;
+  top: 230px;
   color: #ffffff;
 }
 .box-hero img{
@@ -56,4 +59,14 @@ font-family: 'Raleway', sans-serif;
 }
 .title{
   margin : 40px 0;
+}
+.navbar-brand{
+  display: inline-block;
+}
+@media(max-width: 768px){
+  .logo{
+    width: 100px;
+    position: relative;
+    left: 50px;
+  }
 }
