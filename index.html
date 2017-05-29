@@ -25,7 +25,7 @@
         </div>
         <div class="navbar-text navbar-right navbar-collapse collapse" id="menu" aria-expanded="false" style="height: 1px;">
           <a href="#" class="navbar-text list-group-item">Viaja</a>
-          <a href="#" class="navbar-text list-group-item">Conduce</a>
+          <a href="#conductor" class="navbar-text list-group-item">Conduce</a>
           <a href="#" class="navbar-text list-group-item">Inicia Seción</a>
         </div>
       </div>
@@ -42,7 +42,7 @@
               <h2><strong>Comienza a</strong></h2>
               <h2><strong>viajar con</strong></h2>
             </div>
-            <div class="">
+            <div class="texto-hero">
               <span class="hidden-xs">Viaja con </span>
               <img src="assets/images/logo-blanco.png"alt="">
               <h5 class="hidden-xs">REGISTRATE</h5>
@@ -112,11 +112,11 @@
               <p>Consulta las tarifas LabCar aquí</p>
               <div class="input-box">
                 <img src="assets/images/circulo.png" alt="">
-                <input type="text" placeholder="Ingresa tu punto de partida">
+                <input type="text" placeholder="Ingresa tu punto de partida" id="partida">
               </div>
               <div class="input-box">
                 <img src="assets/images/flecha.png" alt="">
-                <input type="text" placeholder="Ingrese su destino">
+                <input type="text" placeholder="Ingrese su destino" id="destino">
               </div>
               <div class="text-center">
                 <button type="button" class="btn btn-default"><strong>¡TRAZAR RUTA!</strong></button>
@@ -195,7 +195,7 @@
     </footer>
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrQ96dA0nXu71y_2_4d5qsCDzxwBhKKXU&callback=initMap"> </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrQ96dA0nXu71y_2_4d5qsCDzxwBhKKXU&libraries=places&callback=initMap"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
   </body>
 </html>
