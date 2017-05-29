@@ -70,3 +70,26 @@ font-family: 'Raleway', sans-serif;
     left: 50px;
   }
 }
+#informacion{
+  background-color: #f7b617;
+  padding: 40px 40px;
+  color: #ffffff;
+}
+.inf-title{
+  font-family: 'Raleway', sans-serif;
+}
+.inf-texto{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+}
+.border{
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #ffffff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.border img{
+  width: 300px;
+}
